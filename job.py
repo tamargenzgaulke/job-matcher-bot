@@ -35,4 +35,5 @@ if uploaded_file:
     results = classifier(text)
     st.write("Job Category:", results[0]['label'])
     #versao 2
+    #versao 3
     
