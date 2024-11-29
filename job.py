@@ -34,3 +34,5 @@ if uploaded_file:
     st.write("Extracted Text:", text[:500])  # Exibir um trecho do texto
     results = classifier(text)
     st.write("Job Category:", results[0]['label'])
+    #versao 2
+    
